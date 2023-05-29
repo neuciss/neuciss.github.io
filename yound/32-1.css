@@ -1,0 +1,156 @@
+img{
+    width: 100%;
+}
+
+/* 
+
+
+font-family: 'Alumni Sans', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Kurale', serif;
+font-family: 'Marmelad', sans-serif;
+font-family: 'Rubik Wet Paint', cursive;
+font-family: 'Sofia Sans Extra Condensed', sans-serif;
+font-family: 'Vollkorn', serif;
+
+
+ */
+
+h1{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+h2{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+h3{
+    font-family: 'Marmelad', sans-serif;
+}
+p{
+    font-family: 'Vollkorn', serif; 
+}
+a{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;  
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+body{
+    background-color: rgba(194, 192, 181, 0.966);
+    margin: 0;
+    text-align: center;
+}
+.top-text{
+text-align: center;
+background-color: rgb(173, 170, 157);
+ padding-bottom: 20px;
+}
+.navbar{
+    background-color:   rgb(173, 170, 157);
+}
+.nav-link{
+    color: black ;
+}
+.top-text h1{
+    font-size:1.5rem;
+    text-transform: uppercase;
+}
+.col-sm-12.col-md-6.col-lg-4{
+    padding: 10px;
+}
+.col-sm-12.col-md-8.col-lg-6{
+    padding: 10px;
+    
+}
+.my-card{
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    color: rgb(151, 144, 144);
+    transition: 0.5s;
+    
+}
+.my-card:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 20px white;
+}
+.my-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.my-card p{
+    color: rgb(173, 170, 157);
+}
+.my-card h3{
+    color: rgb(199, 192, 162);
+
+}
+footer{
+    background-color: rgb(77, 74, 74);
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.op{
+    margin-right: 5px;
+}
+.socio-link{
+    text-decoration: none;
+    margin-bottom: 0;
+    text-align: left;
+    color: white;
+margin-right: 5px;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(69, 70, 69);
+    height: 100vh;
+    width: 100%;
+    z-index: 6000;
+    transition: 1.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader h2 {
+    font-size: 4em;
+    letter-spacing: 20px;
+    animation: preloader-anim 2s infinite alternate;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;}
+@keyframes lds-ring{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
